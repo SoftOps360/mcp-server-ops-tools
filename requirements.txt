@@ -1,0 +1,4 @@
+# The official Model Context Protocol SDK (includes the `mcp` CLI: `mcp dev`, `mcp install`).
+mcp[cli]>=1.2
+# Note: no openai / API key here - an MCP SERVER has no LLM of its own. The LLM lives in the
+# CLIENT (Claude Desktop, an IDE, or your own agent) that connects to this server.

@@ -1,0 +1,9 @@
+{
+  "_comment": "Example Claude Desktop config. On Windows this file lives at %APPDATA%\\Claude\\claude_desktop_config.json (macOS: ~/Library/Application Support/Claude/claude_desktop_config.json). Edit the absolute path to ops_mcp_server.py, then fully restart Claude Desktop. `python` must be a Python that has `mcp` installed. `mcp install ops_mcp_server.py` can generate this entry for you.",
+  "mcpServers": {
+    "ops-tools": {
+      "command": "python",
+      "args": ["D:\\CERTIFICATION_STUFF\\CLAUDE\\BUILD-AI-APPS\\EPISODE-14-mcp-server-ops-tools\\ops_mcp_server.py"]
+    }
+  }
+}
